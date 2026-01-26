@@ -604,11 +604,44 @@ footer ul li a {
         gap: 1rem;
     }
 
-    .project-card {
-        width: 80%;
-        max-width: 80%;
-        padding: 1rem;
+    section {
+        padding: 4rem 1rem; /* smaller padding on sides */
     }
+
+    .project-grid {
+        display: grid;
+        grid-template-columns: 1fr;   
+        justify-items: center;        
+        margin: 0 auto;               
+        width: 100%;                  /* full width of container */
+        max-width: 400px;             /* optional: limits the cards */
+        gap: 2rem;                    /* spacing between cards */
+    }
+
+    .project-card {
+        width: 100%;                  /* fill the grid column */
+        max-width: 100%;              /* ensure no overflow */
+    }
+
+    footer {
+        width: 100%;                  /* prevent footer stretching */
+        padding: 0 1rem;              /* small side padding */
+        box-sizing: border-box;
+    }
+
+
+    section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    @media (max-width: 600px) {
+    .section-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 }
 
 a {
