@@ -654,6 +654,15 @@ footer ul li a {
         margin-right: auto;
     }
 
+    .project-card:hover {
+    transform: scale(1.1) translateY(-10px);
+    background-color: rgb(0, 157, 255);
+    border: none;
+    color: white;
+    all: unset; 
+    }
+    }
+
 
 }
 
