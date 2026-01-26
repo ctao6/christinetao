@@ -555,8 +555,9 @@ footer ul li a {
     }
 
     header {
-        padding: 1rem 5rem;
-        gap: 8rem;
+        gap: 1.5rem;
+        justify-content: space-between;
+        width: calc(100% - 2rem);
     }
 
     header .logo {
