@@ -532,6 +532,10 @@ footer ul li a {
 
 @media(max-width: 600px) {
 
+    .about {
+        margin-top: 1rem;
+    }
+    
     .header-btn {
         display: none !important;
     }
@@ -600,33 +604,40 @@ footer ul li a {
         font-size: 1.5rem;
     }
 
-    footer ul {
-        gap: 1rem;
-    }
-
     section {
-        padding: 4rem 1rem; /* smaller padding on sides */
+        padding-top: 6rem; 
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
     }
 
     .project-grid {
         display: grid;
-        grid-template-columns: 1fr;   
-        justify-items: center;        
-        margin: 0 auto;               
-        width: 100%;                  /* full width of container */
-        max-width: 400px;             /* optional: limits the cards */
-        gap: 2rem;                    /* spacing between cards */
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 400px; 
+        gap: 2rem;
     }
 
     .project-card {
-        width: 100%;                  /* fill the grid column */
-        max-width: 100%;              /* ensure no overflow */
+        width: 100%;                 
+        max-width: 100%;              
     }
 
     footer {
-        width: 100%;                  /* prevent footer stretching */
-        padding: 0 1rem;              /* small side padding */
+        width: 100%;
+        padding: 2rem 1rem; 
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer ul {
+        justify-content: center; 
+        gap: 1rem;
     }
 
 
