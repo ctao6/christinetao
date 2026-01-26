@@ -627,24 +627,39 @@ footer ul li a {
         width: 100%;                 
         max-width: 100%;              
     }
-
+    
     footer {
-        padding: 1rem; 
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* center all children horizontally */
+        justify-content: center;
+        padding: 1rem;
+        gap: 0.5rem; /* spacing between links and copyright */
         box-sizing: border-box;
+        width: 100%;
     }
 
     footer ul {
-        justify-content: center; 
-        flex-wrap: wrap;         
-        gap: 1rem;               
+        display: flex;
+        justify-content: center; /* center the list items */
+        flex-wrap: wrap;          /* wrap if needed */
+        gap: 1rem;
+        padding: 0;
+        margin: 0;
+        width: 100%;              /* constrain the ul to the footer width */
+        max-width: 300px;         /* optional: limit how wide it stretches */
+    }
+
+    footer ul li a {
+        font-size: 1.25rem;
     }
 
     footer p.copyright {
-        text-align: center;      
-        width: 100%;             
-        margin-top: 1rem;        
+        text-align: center;
+        margin: 0;
+        font-size: 1rem;          /* scale down for mobile */
+        width: 100%;
     }
-
 
     section {
         padding-left: 1rem;
