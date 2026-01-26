@@ -519,12 +519,22 @@ footer ul li a {
     }
 
     .experience-info .video-container {
-        width: 70 vw;
+        width: 60vw;
+    }
+
+    .skills {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
     }
   
 }
 
 @media(max-width: 600px) {
+
+    .header-btn {
+        display: none !important;
+    }
 
     header #menu-icon{
         display: block;
@@ -558,7 +568,11 @@ footer ul li a {
         gap: 1.5rem;
         justify-content: space-between;
         width: calc(100% - 2rem);
+        justify-content: space-between;
+        padding: 0.75rem 1.25rem;
+        gap: 0;
     }
+
 
     header .logo {
         font-size: 1.5rem;
@@ -568,8 +582,12 @@ footer ul li a {
         flex-direction: column;
     }
 
-    .about-container .video-container{
+    .about-container .img{
         width: 80vw;
+    }
+
+    .experience .video-container {
+        width: 60vw;
     }
 
     .input-box input {
@@ -584,6 +602,12 @@ footer ul li a {
 
     footer ul {
         gap: 1rem;
+    }
+
+    .project-card {
+        width: 80%;
+        max-width: 80%;
+        padding: 1rem;
     }
 }
 
