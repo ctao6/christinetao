@@ -548,7 +548,7 @@ footer ul li a {
         position: absolute;
         top: 100%;
         margin-top: 1rem;
-        width: 100%;
+        width: 80%;
         padding: 1rem;
         color: white;
         display: flex;
@@ -631,23 +631,23 @@ footer ul li a {
     footer {
         display: flex;
         flex-direction: column;
-        align-items: center; /* center all children horizontally */
+        align-items: center; 
         justify-content: center;
         padding: 1rem;
-        gap: 0.5rem; /* spacing between links and copyright */
+        gap: 0.5rem; 
         box-sizing: border-box;
         width: 100%;
     }
 
     footer ul {
         display: flex;
-        justify-content: center; /* center the list items */
-        flex-wrap: wrap;          /* wrap if needed */
+        justify-content: center; 
+        flex-wrap: wrap;          
         gap: 1rem;
         padding: 0;
         margin: 0;
-        width: 100%;              /* constrain the ul to the footer width */
-        max-width: 300px;         /* optional: limit how wide it stretches */
+        width: 100%;              
+        max-width: 300px;         
     }
 
     footer ul li a {
@@ -657,7 +657,7 @@ footer ul li a {
     footer p.copyright {
         text-align: center;
         margin: 0;
-        font-size: 1rem;          /* scale down for mobile */
+        font-size: 1rem;          
         width: 100%;
     }
 
