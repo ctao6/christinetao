@@ -246,6 +246,32 @@ section {
   height: auto;
 }
 
+.proj-video-container {
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  width: 100%;
+  border-radius: 2rem;
+  overflow: hidden;           
+}
+
+.proj-video-container video {
+  width: 70%;                
+  height: auto;
+  display: block;
+  border-radius: 2rem;       
+}
+
+.cat-container {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
 ::-webkit-scrollbar {
     width: 20px;
 }
@@ -281,7 +307,7 @@ section {
 }
 
 .project-card:hover {
-    transform: scale(1.1) translateY(-10px);
+    transform: scale(1.05) translateY(-10px);
     background-color: rgb(0, 157, 255);
     border: none;
     color: white;
