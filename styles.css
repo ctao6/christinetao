@@ -4,8 +4,13 @@
     box-sizing: border-box;
     font-family: 'Helvetica Neue';
     text-decoration: none;
-    scroll-behavior: none;
+    scroll-behavior: smooth;
     list-style: none;
+}
+
+:target {
+    outline: none;
+    caret-color: transparent;
 }
 
 header {
