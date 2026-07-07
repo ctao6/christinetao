@@ -1,1 +1,1 @@
-Personal portfolio!
+Design, software development, and product marketing portfolio.
